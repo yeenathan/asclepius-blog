@@ -18,7 +18,6 @@ const CoverImage = ({ title, src, slug }: Props) => {
       })}
       width={1280}
       height={720}
-      style={{maxHeight: "720px", width: "auto"}}
     />
   );
   return (

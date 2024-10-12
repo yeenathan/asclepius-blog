@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main h1, h2 {
+    color: #00A39B;
+    font-weight: 700;
+}
+
+.main {
+    background-color: #FBF1EA;
+}
+
+.footer {
+    background-color: #00A39B;
+}
+
+.footer a {
+    color: #FBF1EA;
+    font-weight: 700;
+    font-size: 16pt;
+}
+
+.main a:hover {
+    color: #FF9825;
+}

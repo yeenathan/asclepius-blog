@@ -3,9 +3,16 @@ import { EXAMPLE_PATH } from "@/lib/constants";
 
 export function Footer() {
   return (
-    <footer className="bg-neutral-50 border-t border-neutral-200 dark:bg-slate-800">
+    <footer className="footer">
       <Container>
-        <div className="py-28 flex flex-col lg:flex-row items-center">
+        <div className="py-5 flex flex-col lg:flex-row justify-between items-center">
+          <a className="hover:underline" href="https://github.com/yeenathan/Asclepius">Github</a>
+          <p style={{color: "#FBF1EA"}}>
+            Powered by
+            <a className="ml-1" style={{fontWeight: "400", fontSize: "12pt"}}href="https://vercel.com/templates/next.js/blog-starter-kit">Vercel Blog Starter Kit</a>
+          </p>
+        </div>
+        {/* <div className="py-28 flex flex-col lg:flex-row items-center">
           <h3 className="text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
             Statically Generated with Next.js.
           </h3>
@@ -23,7 +30,8 @@ export function Footer() {
               View on GitHub
             </a>
           </div>
-        </div>
+        </div> */}
+        
       </Container>
     </footer>
   );
