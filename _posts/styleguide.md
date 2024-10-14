@@ -6,7 +6,7 @@ ogImage:
   url: "/assets/blog/styleguide/styleguide.png"
 date: "2024-10-11"
 author:
-  name: Crystal and Madoka
+  name: "Crystal and Madoka"
   picture: "/assets/authors/profile.png"
 ---
 We're excited to share our latest updates as we move forward with the design of our medication reminder app, tailored for elderly users and those with memory challenges.

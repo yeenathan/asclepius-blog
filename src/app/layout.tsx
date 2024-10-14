@@ -12,11 +12,13 @@ const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 });
 
+const ogImage = "/assets/ogImage.png"
+
 export const metadata: Metadata = {
   title: `Remedify`,
   description: `Blog site for project Remedify.`,
   openGraph: {
-    images: [HOME_OG_IMAGE_URL],
+    images: [ogImage],
   },
 };
 
