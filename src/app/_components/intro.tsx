@@ -8,10 +8,10 @@ export function Intro() {
           Remedify
         </h1>
         <div>
-          <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
+          <h4 className="text-center md:text-right text-lg mt-5 md:pl-8">
             Remedify project progress updates!
           </h4>
-          <div className="flex gap-x-4 justify-end">
+          <div className="flex gap-x-4 justify-center md:justify-end">
             <a className="navlink" href="/about">About</a>
             <a className="navlink" href="/">App</a>
           </div>
