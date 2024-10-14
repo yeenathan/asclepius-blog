@@ -24,3 +24,9 @@
 .main a:hover {
     color: #FF9825;
 }
+
+.navlink {
+    font-size: 18pt;
+    font-weight: 700;
+    color: #00A39B;
+}
