@@ -7,7 +7,7 @@ export function Intro() {
         {/* <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
           Remedify
         </h1> */}
-        <Image className="logomark" src="/assets/logomark.svg" alt="Remedify Logo" width={350} height={71}/>
+        <Image className="logomark" src="/assets/defaults/logomark.svg" alt="Remedify Logo" width={350} height={71}/>
         <div>
           <h4 className="text-center md:text-right text-lg mt-5 md:pl-8">
             Remedify project blog.

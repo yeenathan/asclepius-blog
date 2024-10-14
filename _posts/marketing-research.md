@@ -1,9 +1,9 @@
 ---
 title: "Marketing and Visual Story Advertisement Video Research"
 excerpt: "Read here to understand our target marketing plan and align with our advertisement vision."
-coverImage: "/assets/ogImage.png"
+coverImage: "/assets/defaults/ogImage.png"
 ogImage:
-  url: "/assets/ogImage.png"
+  url: "/assets/defaults/ogImage.png"
 date: "2024-10-13"
 author:
   name: "Brian and Kenny"
