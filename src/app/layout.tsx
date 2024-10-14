@@ -1,13 +1,16 @@
 import Footer from "@/app/_components/footer";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import cn from "classnames";
 import { ThemeSwitcher } from "./_components/theme-switcher";
 
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+});
 
 export const metadata: Metadata = {
   title: `Remedify`,
@@ -28,7 +31,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon/favicon.ico" />
       </head>
       <body
-        className={cn(inter.className, "main")}
+        className={cn(poppins.className, "main")}
       >
         {/* <ThemeSwitcher /> */}
         <div className="min-h-screen">{children}</div>

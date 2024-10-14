@@ -4,7 +4,7 @@
 
 .main h1, h2 {
     color: #00A39B;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .main {
@@ -17,7 +17,7 @@
 
 .footer a {
     color: #FBF1EA;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 16pt;
 }
 
@@ -27,6 +27,34 @@
 
 .navlink {
     font-size: 18pt;
-    font-weight: 700;
+    font-weight: 600;
     color: #00A39B;
+}
+
+@media screen and (min-width: 1280px) {
+    .logomark {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+    .logomark {
+        width: 640px;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .logomark {
+        width: 430px;
+    }
+}
+
+.wordmark {
+    width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+    .wordmark {
+        width: 200px;
+    }
 }
