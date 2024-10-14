@@ -11,7 +11,7 @@ const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 });
 
-const ogImage = "/assets/ogImage.png"
+const ogImage = "/assets/defaults/ogImage.png"
 
 export const metadata: Metadata = {
   title: `Remedify`,
