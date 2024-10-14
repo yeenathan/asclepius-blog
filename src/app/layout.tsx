@@ -10,8 +10,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: `Asclepius Blog`,
-  description: `Blog site for project Asclepius.`,
+  title: `Remedify`,
+  description: `Blog site for project Remedify.`,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
   },
@@ -26,7 +26,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon/favicon.ico" />
-
       </head>
       <body
         className={cn(inter.className, "main")}
