@@ -31,6 +31,10 @@
     color: #00A39B;
 }
 
+.about-hyperlink {
+    color: #00A39B;
+}
+
 @media screen and (min-width: 1280px) {
     .logomark {
         width: 768px;
