@@ -11,7 +11,7 @@ const Header = () => {
       </h2>
       <div className="flex gap-x-4">
         <a className="navlink" href="/about">About</a>
-        <a className="navlink" href="/">App</a>
+        <a className="navlink" href="https://github.com/yeenathan/asclepius">App</a>
       </div>
     </div>
   );
