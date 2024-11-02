@@ -14,7 +14,7 @@ export default function Test() {
                     <p className="mt-5">One method of improving medication adherence will be done with help from AI. This will involve features such as recognizing instructions and medications from photos via OCR/Vision, and providing users with information based on the <a className="about-hyperlink" href="https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html">Canadian Drug Product Database (DPD)</a> or <a className="about-hyperlink" href="https://go.drugbank.com/">DrugBank</a>.</p>
                 </div>
                 <h2 className="text-4xl mb-4 md:mb-8">Meet the Team</h2>
-                <div className="grid md:grid-cols-4 grid-cols-2 gap-10 mb-16 md:mb-32">
+                <div className="grid md:grid-cols-4 grid-cols-2 gap-10 mb-16 md:mb-32 md:max-w-6xl max-w-lg m-auto">
                     <div className="member-block">
                         <img src="/assets/authors/brian.jpg"></img>
                         Brian Paragas
