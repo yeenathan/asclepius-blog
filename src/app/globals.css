@@ -62,3 +62,26 @@
         width: 200px;
     }
 }
+
+/*about*/
+.member-block {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #00A39B;
+}
+
+.member-block span {
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+}
+
+.member-block img {
+    border-radius: 50%;
+    margin-bottom: .5rem;
+    border: 4px solid #00A39B;
+}
