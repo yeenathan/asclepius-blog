@@ -5,10 +5,13 @@ export function Footer() {
     <footer className="footer">
       <Container>
         <div className="py-5 flex flex-col lg:flex-row justify-between items-center">
-          <a className="hover:underline" href="https://github.com/yeenathan/Asclepius">Github</a>
+          <div className="flex flex-row gap-2">
+            <a className="min-w-10" href="https://github.com/yeenathan/Asclepius" target="_blank"><img src="/assets/defaults/github-mark-white.svg" className="max-h-10"/></a>
+            <a className="min-w-10" href="https://www.instagram.com/rememberwithremedify/" target="_blank"><img src="/assets/defaults/Instagram_logo_white.svg" className="max-h-10"/></a>
+          </div>
           <p style={{color: "#FBF1EA"}}>
             Powered by
-            <a className="ml-1" style={{fontWeight: "400", fontSize: "12pt"}}href="https://vercel.com/templates/next.js/blog-starter-kit">Vercel Blog Starter Kit</a>
+            <a className="ml-1" style={{fontWeight: "400", fontSize: "12pt"}} href="https://vercel.com/templates/next.js/blog-starter-kit">Vercel Blog Starter Kit</a>
           </p>
         </div>
         {/* <div className="py-28 flex flex-col lg:flex-row items-center">

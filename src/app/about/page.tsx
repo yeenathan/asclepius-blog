@@ -12,6 +12,11 @@ export default function Test() {
                 <div className="mb-8 md:mb-16">
                     <p>Welcome to Project <span style={{fontStyle: "italic"}}>Remedify</span>, an app designed to make remembering to take your medication easier than ever before. Remedify aims to improve medication adherence while maintaining a low learning curve to prioritize accessibility for users. Users who are prone to polypharmacy and cognitive impairments will have a convenient reminder and easy support system in their life. In addition to our support system at the touch of your fingers, Remedify aims to empower our users by giving them full control over their schedule and medication details.</p>
                     <p className="mt-5">One method of improving medication adherence will be done with help from AI. This will involve features such as recognizing instructions and medications from photos via OCR/Vision, and providing users with information based on the <a className="about-hyperlink" href="https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html">Canadian Drug Product Database (DPD)</a> or <a className="about-hyperlink" href="https://go.drugbank.com/">DrugBank</a>.</p>
+                    <div className="mt-5 flex flex-row gap-2">
+                        <a href="https://github.com/yeenathan/Asclepius" target="_blank"><img className="max-h-12" src="/assets/defaults/github-mark.svg"/></a>
+                        <a href="https://www.instagram.com/rememberwithremedify/" target="_blank"><img className="max-h-12" src="/assets/defaults/Instagram_logo_2022.svg"/></a>
+                    </div>
+
                 </div>
                 <h2 className="text-4xl mb-4 md:mb-8">Meet the Team</h2>
                 <div className="grid md:grid-cols-4 grid-cols-2 gap-10 mb-16 md:mb-32 md:max-w-6xl max-w-lg m-auto">
