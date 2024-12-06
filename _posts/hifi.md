@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: "App Design Progress: Initial Hi-Fi Design"
+=======
+title: "App Design Progress: Initial Hi-fi"
+>>>>>>> 95b15e3e7a3aec2d9bc092173dcf6ffca5e23ba6
 excerpt: "Here's a quick update on our medication reminder app's design progress! Our hi-fi prototype emphasizes accessibility and ease of use for our target audience. "
 coverImage: "/assets/blog/hifi/hifi.png"
 ogImage:
